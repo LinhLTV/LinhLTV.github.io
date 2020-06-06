@@ -2,7 +2,13 @@ body{
 	overflow-x: hidden; 
 	font-family: segoe ui;
 	color: white;
-	background: #ff6600;
+	background: white;
+	width: 100%;
+	height: 100%;
+}
+html{
+	width: 100%;
+	height: 100%;
 }
 .nav-item{
 	margin: 0 auto;
@@ -19,6 +25,49 @@ body{
 	background-repeat: no-repeat;
 	background-image: url(L.PNG);
 }
+.khoitt1{
+	width: 100%;
+	height: 100%;
+	background: #e9585f;
+	position: relative;
+}
+.khoitt1:before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	width: 50%;
+	height: 100%;
+	left: 0px;
+	background: #e4555b;
+}
+.khoitt1 .tt h2{
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: bold;
+}
+.khoitt1 .tt p{
+	color: black;
+	font-size: 16px;
+	width: 40%;
+	line-height: 25px;
+	margin: auto;
+	margin-bottom: 24px;
+}
+.khoitt1 .tt .avatar{
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	background-image: url(avatar.png);
+	background-size: cover;
+	border-radius: 50%;
+}
+
+
+
+
+
+/*phan repon*/
 @media (min-width: 0px) and (max-width: 575px){
 	.menu-top .menudown{
 		position: absolute;
@@ -38,7 +87,7 @@ body{
 
 	}
 	.nut2{
-		z-index: 1;
+		z-index: 3;
 		opacity: 0;
 		visibility: hidden;
 		transform: scale(0);
@@ -46,14 +95,14 @@ body{
 
 	}
 	.nut1.hien{
-	z-index: 1;
+	z-index: 3;
 	opacity: 0;
 	visibility: hidden;
 	transform: scale(0);
 	transition: 0.2s;
 	}
 	.nut2.close{
-		z-index: 2;
+		z-index: 3;
 		opacity: 1;
 		visibility: visible;
 		transform: scale(1);
@@ -61,12 +110,14 @@ body{
 
 	}
 	.menu-top .menudown.down{
+		z-index: 2;
 		opacity: 1;
 		display: block;
 		transform: translateY(0px);
 		visibility: visible;
 		transition: 0.4s;
 		background: #341233;
+		border-right: 6px;
 	}
 	.menu-top .menudown.down li a{
 		color: white;
