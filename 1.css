@@ -1,18 +1,61 @@
 body{
+	overflow-x: hidden; 
 	font-family: segoe ui;
 	color: white;
 	background: #ff6600;
 }
-h1{
-	text-align: center;
+.nav-item{
+	margin: 0 auto;
 }
-.thongtin .avatar{
-	width: 400px;
-	height: 500px;
-	margin-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	background-image: url(avatar.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+.menu-top{
+	/*overflow-x: hidden; */
+}
+@media (min-width: 0px) and (max-width: 575px){
+	.menu-top .menudown{
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		opacity: 0;
+		display: block;
+		transform: translateY(-300px);
+		visibility: hidden;
+		transition: 0.4s;
+	}
+	.nut1, .nut2{
+		position: absolute;
+		top: 0px;
+		right: 20px;
+		transition: 0.2s;
+
+	}
+	.nut2{
+		z-index: 1;
+		opacity: 0;
+		visibility: hidden;
+		transform: scale(0);
+		transition: 0.2s;
+
+	}
+	.nut1.hien{
+	z-index: 1;
+	opacity: 0;
+	visibility: hidden;
+	transform: scale(0);
+	transition: 0.2s;
+	}
+	.nut2.close{
+		z-index: 2;
+		opacity: 1;
+		visibility: visible;
+		transform: scale(1);
+		transition: 0.2s;
+
+	}
+	.menu-top .menudown.down{
+		opacity: 1;
+		display: block;
+		transform: translateY(0px);
+		visibility: visible;
+		transition: 0.4s;
+	}
 }
