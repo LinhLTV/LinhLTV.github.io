@@ -1,6 +1,18 @@
 body{
 	font-family: segoe ui;
+	color: white;
+	background: #ff6600;
 }
 h1{
 	text-align: center;
+}
+.thongtin .avatar{
+	width: 400px;
+	height: 500px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(avatar.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
