@@ -17,7 +17,7 @@ body{
 	height: 132px;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url(L.png);
+	background-image: url(L.PNG);
 }
 @media (min-width: 0px) and (max-width: 575px){
 	.menu-top .menudown{
