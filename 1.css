@@ -8,6 +8,8 @@ body{
 	margin: 0 auto;
 }
 .menu-top{
+	width: 100%;
+	background: white;
 	/*overflow-x: hidden; */
 }
 @media (min-width: 0px) and (max-width: 575px){
@@ -57,5 +59,12 @@ body{
 		transform: translateY(0px);
 		visibility: visible;
 		transition: 0.4s;
+	}
+}
+@media (max-width: 320px){
+	.wh{
+		background: white;
+		height: auto;
+		width: 100%!important;
 	}
 }
