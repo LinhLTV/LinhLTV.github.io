@@ -12,10 +12,17 @@ body{
 	background: white;
 	/*overflow-x: hidden; */
 }
+.menu-top .logo{
+	width: 225px;
+	height: 132px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(L.png);
+}
 @media (min-width: 0px) and (max-width: 575px){
 	.menu-top .menudown{
 		position: absolute;
-		top: 20px;
+		top: 0px;
 		right: 20px;
 		opacity: 0;
 		display: block;
@@ -59,12 +66,19 @@ body{
 		transform: translateY(0px);
 		visibility: visible;
 		transition: 0.4s;
+		background: #341233;
+	}
+	.menu-top .menudown.down li a{
+		color: white;
+	}
+	.menu-top .menudown.down li:hover > a{
+		color: #ef7e7e;
 	}
 }
 @media (max-width: 320px){
 	.wh{
 		background: white;
-		height: auto;
+		height: 132px;
 		width: 100%!important;
 	}
 }
