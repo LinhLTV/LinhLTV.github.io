@@ -12,7 +12,7 @@
  	<link rel="stylesheet" href="1.css">
 </head>
 <body>
-	<div class="menu-top ">
+	<div class="menu-top position-fixed ">
 		<div class="container bg-white">
 					
 			<div class="row justify-content-center">
@@ -22,10 +22,7 @@
 					</li>
 					<div class="btn btn-outline-success nut1 d-inline-block d-sm-none"><i class="fas fa-bars"></i></div>
 					<div class="btn btn-outline-success nut2 d-inline-block d-sm-none"><i class="fas fa-times text-white"></i></div>
-					<ul class="nav navbar pl-1 pr-1 menudown flex-column flex-sm-row">
-						<li class="nav-item mt-md-4">
-							<a class="nav-link pl-0 pr-0 font-weight-bold" href="#">Giới thiệu</a>
-						</li>
+					<ul class="nav navbar  pt-0 pl-1 pr-1 menudown flex-column flex-sm-row">
 						<li class="nav-item mt-md-4">
 							<a class="nav-link pl-0 pr-0 font-weight-bold" href="#">Kinh nghiệm</a>
 						</li>
@@ -36,22 +33,22 @@
 							<a class="nav-link pl-0 pr-0 font-weight-bold" href="#">Thông tin liên hệ</a>
 						</li>
 						<li class="nav-item mt-md-4">
-							<a class="nav-link pl-0 pr-0 font-weight-bold" href="#">COMMENT</a>
+							<a class="nav-link pl-0 pr-0 font-weight-bold" href="gallery.html">COMMENT</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="khoitt1">
+	<div class="khoitt1 h-100">
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-12">
-					<div class="tt mt-3">
+					<div class="tt">
 						<div class="avatar"></div>
 						<h2 class="mt-5">Cao Thục Linh</h2>
 						<p>lập trình viên php chuyên nghiệp!</p>
-						<button class="btn btn-dark"><a href="#" class="text-white font-weight-bold text-decoration-none pl-5 pr-5">hợp tác</a></button>
+						<button class="btn btn-primary"><a href="#" class="text-white font-weight-bold text-decoration-none pl-5 pr-5">hợp tác</a></button>
 					</div>
 					
 				</div>
@@ -59,5 +56,37 @@
 		</div>
 	</div>
 	<!-- het khoi thong tin 1 -->
+	<div class="card-deck">
+	  <div class="card bg-primary|secondary|success|danger|warning|info|light|dark">
+	    <img src="..." class="card-img-top" alt="...">
+	    <div class="card-body">
+	      <h5 class="card-title">Card title</h5>
+	      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+	    </div>
+	    <div class="card-footer">
+	      <small class="text-muted">Last updated 3 mins ago</small>
+	    </div>
+	  </div>
+	  <div class="card bg-primary|secondary|success|danger|warning|info|light|dark">
+	    <img src="..." class="card-img-top" alt="...">
+	    <div class="card-body">
+	      <h5 class="card-title">Card title</h5>
+	      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+	    </div>
+	    <div class="card-footer">
+	      <small class="text-muted">Last updated 3 mins ago</small>
+	    </div>
+	  </div>
+	  <div class="card bg-primary|secondary|success|danger|warning|info|light|dark">
+	    <img src="..." class="card-img-top" alt="...">
+	    <div class="card-body">
+	      <h5 class="card-title">Card title</h5>
+	      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+	    </div>
+	    <div class="card-footer">
+	      <small class="text-muted">Last updated 3 mins ago</small>
+	    </div>
+	  </div>
+	</div>
 </body>
 </html>
