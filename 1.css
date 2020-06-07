@@ -32,6 +32,7 @@ html{
 	width: 100%;
 	background: #e9585f;
 	position: relative;
+	overflow-y: hidden; 
 }
 .khoitt1:before{
 	content: "";
@@ -133,27 +134,26 @@ html{
 		color: #ef7e7e;
 	}
 }
-@media (max-width: 320px){
-	.wh{
-		background: white;
-		height: 132px;
-		width: 100%!important;
-	}
-}
 @media(max-width: 322px){
 	.menu-top .logo{
+	background-color: white;
 	position: absolute;
+	height: 94px;
 	top: 0px;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 100%;
+	left: 0%;
+	transform: translateX(0%);
+	width: 50%!important;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-image: url(imager/L.PNG);
-
 }
+	.wh{
+		width: 100%;
+		background-color: white;
+		height: 94px;
+	}
 .khoitt1{
-	margin-top: 132px;
+	margin-top: 97px;
 	width: 100%;
 	background: #e9585f;
 	position: relative;
