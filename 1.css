@@ -45,10 +45,11 @@ html{
 .khoitt1 .tt {
 	position: absolute;
 	width: 70%;
-	top: 20px;
+	top: 40px;
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 2;
+	margin: 0 auto;
 
 }
 .khoitt1 .tt h2{
